@@ -135,7 +135,7 @@ def generate_summary_report(input_file):
             report.write('\n' + '#'*80 + '\n\n')
 
     print(f"Summary report generated: {output_file}")
-    send_email_with_attachment('Joey.Bhagadonuts1999@gmail.com', 'kfui sxxq yjvc ewzr', 'matthew.presti.626@gmail.com,matthaeus.prestius@icloud.com', 'Todays Security Summary', 'This is the Security News Report for Today', output_file)
+    send_email_with_attachment('joe@blow.com', 'abcd efgh ijkl mnop', 'recipient@gmail.com', 'Todays Security Summary', 'This is the Security News Report for Today', output_file)
 # send_email_with_attachment('you@gmail.com', 'your_app_password', 'recipient@example.com', 'Subject', 'Body text', 'path/to/file.txt')
 
 #############################################################################
@@ -167,10 +167,6 @@ def send_email_with_attachment(sender_email, app_password, recipient_email, subj
         print(f"Failed to send email: {e}")
 
 # Example usage
-# send_email_with_attachment('you@gmail.com', 'your_app_password', 'recipient@example.com', 'Subject', 'Body text', 'path/to/file.txt')
-
-#send_email_with_attachment('Joey.Bhagadonuts1999@gmail.com', 'xxxx', 'matthew.presti.626@gmail.com', 'Todays Security Summary', 'C:\\Users\\Matthew Presti\\python\\parseTHN\\data')
-#send_email_with_attachment('Joey.Bhagadonuts1999@gmail.com', 'kfui sxxq yjvc ewzr', 'matthew.presti.626@gmail.com', 'Todays Security Summary', 'This is the Security News Report for Today', 'c:\\logUploaderSettings.ini')
 
 #############################################################################
 if __name__ == "__main__":
